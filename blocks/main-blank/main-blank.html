@@ -46,7 +46,7 @@
                 <div class="main-blank__adress">
                     <label>
                         Адреса доставки:
-                        <input type="text" maxlength="1000" placeholder="Область/Район/Населений пункт/Вулиця/Номер будинку/Номер квартири">
+                        <textarea type="text" maxlength="1000" placeholder="Область/Район/Населений пункт/Вулиця/Номер будинку/Номер квартири"></textarea>
                     </label>
                 </div>
                 <div class="main-blank__important">
@@ -60,8 +60,14 @@
 
                     </div>
                     <div class="main-blank__important-block">
-                        <input type="checkbox">
-                        Я заповнюю цей документ і роблю обов’язкове замовлення товарів.
+                        <div class="main-blank__important-block">
+                            <div class="main-blank__important-block-input">
+                                <input type="checkbox" checked>
+                            </div>
+                            <div class="main-blank__important-block-text">
+                                Я заповнюю цей документ і роблю обов’язкове замовлення товарів.
+                            </div>
+                        </div>
                     </div>
                 </div>
             </form>

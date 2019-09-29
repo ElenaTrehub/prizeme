@@ -37,6 +37,6 @@ $(function(){
         });
 
 
-    $('select, input').styler();
+    $('select, input, textarea').styler();
 
 });
