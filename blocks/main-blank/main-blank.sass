@@ -1,5 +1,7 @@
 .main-blank
   padding: 50px 0
+  a
+    width: 100%
   &__blank
     width: 878px
     margin: 0 auto
@@ -81,6 +83,9 @@
           display: inline-block
         .jq-radio.checked .jq-radio__div
           background: $red-color
+          width: 6px
+          height: 6px
+          margin: 3px 0 0 3px
   &__contacts
     width: 655px
     margin-left: 88px
@@ -180,15 +185,17 @@
     width: 276px
     height: 74px
     margin: 39px auto
-    font-family: $main-font
-    font-style: normal
-    font-weight: bold
-    font-size: 22px
-    line-height: 74px
-    color: #FFFFFF
     background: $red-color
     text-align: center
     cursor: pointer
+    a
+      font-family: $main-font
+      font-style: normal
+      font-weight: bold
+      font-size: 22px
+      line-height: 74px
+      color: #FFFFFF
+
   &__text
     width: 878px
     font-family: $second-font

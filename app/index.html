@@ -26,7 +26,7 @@
             <div class="header__text">
                 Від щирого серця вітаю Вас! Ви заслужено здобули перемогу і будете винагороджені по максимуму!  Мені приємно усвідомлювати, що саме Ви отримаєте Головний приз Акції – 317 000,00 гривень!
             </div>
-            <a href="#" class="header__btn">
+            <a href="#blank" class="header__btn">
                 Обрати дату нагородження
             </a>
             <div class="header__signature">
@@ -50,7 +50,7 @@
             Юрию,<br>
             вітаємо!<br>
             Ви успішно пройшли всі етапи відбору і отримуєте<br>
-            <span>ЧЕРВОНИЙ ДИПЛОМ ПЕРЕМОЖЦЯ!</span>
+            <span class="upper red">ЧЕРВОНИЙ ДИПЛОМ ПЕРЕМОЖЦЯ!</span>
             <div class="patent__header-tree-left">
                 <img src="images/tree-left.png" alt="">
             </div>
@@ -64,14 +64,14 @@
                     Фінансовий відділ “PrizeMe” пишається Вами!
                 </div>
                 <div class="patent__describe-text">
-                    <p>Ви дуже швидко реагували на листи і правильно заповнювали офіційні документи, саме тому перед нагородженням ми вирішили видати Вам ЧЕРВОНИЙ ДИПЛОМ ПЕРЕМОЖЦЯ, що надає Вам унікальне право на першочергову та БЕЗКОШТОВНУ доставку виграшу.*</p>
-                    <p>Радійте! Гонитва за виграшем завершена. Ваші документи підписано, гроші підготовлено. Тепер Ви гарантовано одержите 317 000,00 гривень без черг і на першу вимогу.</p>
+                    <p>Ви дуже швидко реагували на листи і правильно заповнювали офіційні документи, саме тому перед нагородженням ми вирішили видати Вам <span class="upper red">ЧЕРВОНИЙ ДИПЛОМ ПЕРЕМОЖЦЯ</span>, що надає Вам унікальне право на першочергову та <span class="upper">БЕЗКОШТОВНУ</span> доставку виграшу.*</p>
+                    <p>Радійте! Гонитва за виграшем завершена. Ваші документи підписано, гроші підготовлено. Тепер Ви гарантовано одержите <span class="yellow">317 000,00 гривень</span> без черг і на першу вимогу.</p>
                 </div>
                 <div class="patent__describe-main">
                     І зараз все, що лишилося – лише повідомити нам зручний для Вас день доставки грошей! Це останній обов’язковий крок для отримання 317 000,00 гривень.*
                 </div>
                 <div class="patent__describe-text">
-                    Завантажте ДИПЛОМ або запишіть його номер для пред’явлення кур’єру Служби доставки (за бажанням можете роздрукувати ДИПЛОМ, після завантаження). Ознайомтеся з ДОДАТКОМ, щоб дізнатись усі подробиці Вашої перемоги.
+                    Завантажте ДИПЛОМ або запишіть його номер для пред’явлення кур’єру Служби доставки (за бажанням можете роздрукувати <span class="upper" >ДИПЛОМ</span>, після завантаження). Ознайомтеся з <span class="upper" >ДОДАТКОМ</span>, щоб дізнатись усі подробиці Вашої перемоги.
                 </div>
             </div>
             <div class="patent__img">
@@ -127,7 +127,7 @@
                     Юрий,
                 </div>
                 <div class="post-blank__text-content">
-                    Щоб отримати свій виграш – впишіть у “БЛАНК” зручну для Вас дату отримання виграшу та надішліть нам. Після цього кур’єр “PrizeMe” доставить Вам 317 000,00 гривень прямо додому.
+                    Щоб отримати свій виграш – впишіть у “БЛАНК” зручну для Вас дату отримання виграшу та надішліть нам. Після цього кур’єр “PrizeMe” доставить Вам <span class="yellow">317 000,00 гривень</span> прямо додому.
                 </div>
             </div>
             <div class="post-blank__img">
@@ -139,7 +139,7 @@
         </div>
     </div>
 </section>
-<div class="instruction">
+<section class="instruction">
     <div class="instruction__container">
         <div class="instruction__inner">
             <div class="instruction__title">
@@ -215,84 +215,90 @@
             </div>
         </div>
     </div>
-</div>
-<section class="main-blank">
-    <div class="main-blank__blank">
-        <form action="" class="main-blank__inner">
-            <div class="main-blank__title">
-                Бланк на доставку виграшу
-            </div>
-            <div class="main-blank__client">
-                <div class="main-blank__client-input">
-                    <input type="checkbox" checked>
+</section>
+<section  class="main-blank">
+    <a name="blank">
+        <div class="main-blank__blank">
+            <form action="" class="main-blank__inner">
+                <div class="main-blank__title">
+                    Бланк на доставку виграшу
                 </div>
-                <div class="main-blank__client-text">
-                    Я, {{Name}},<br>
-                    як Головний переможець Акції погоджуюсь отримати свій виграш – 317 000,00 гривень – готівкою.
-                </div>
-            </div>
-            <div class="main-blank__wait">
-                <div class="main-blank__wait-title">
-                    Я очікую доставку грошового Призу:
-                </div>
-                <div class="main-blank__wait-group">
-                    <label><input type="radio">Першого тижня виплат (01–05.05)</label>
-                    <label><input type="radio">Четвертого тижня виплат (20–26.05)</label>
-                    <label><input type="radio">Другого тижня виплат (06–12.05)</label>
-                    <label><input type="radio">П’ятого тижня виплат (27.05–31.05).</label>
-                    <label><input type="radio">Третього тижня виплат (13–19.05)</label>
-                </div>
-            </div>
-            <div class="main-blank__contacts">
-                <label>В зручний для мене день тижня:
-                    <select>
-                        <option>Понедельник</option>
-                        <option>Вторник</option>
-                        <option>Среда</option>
-                        <option>Четверг</option>
-                        <option>Пятница</option>
-                        <option>Суббота</option>
-                        <option>Воскресенье</option>
-                    </select>
-                </label>
-                <label>
-                    Номер телефону для зв’язку з Вами та уточнення адреси доставки:
-                    <input type="text" placeholder="+38 011 222 333 44">
-                </label>
-            </div>
-            <div class="main-blank__adress">
-                <label>
-                    Адреса доставки:
-                    <input type="text" placeholder="Область/Район/Населений пункт/Вулиця/Номер будинку/Номер квартири">
-                </label>
-            </div>
-            <div class="main-blank__important">
-                <div class="main-blank__important-block">
-                    <div class="main-blank__important-block-input">
-                        <input type="checkbox">
+                <div class="main-blank__client">
+                    <div class="main-blank__client-input">
+                        <input type="checkbox" checked>
                     </div>
-                    <div class="main-blank__important-block-text">
-                        Я відмовляюсь від БЕЗКОШТОВНОЇ доставки мені виграшу. Прошу вислати мені 317 000,00 гривень поштовим переказом.
+                    <div class="main-blank__client-text">
+                        Я, {{Name}},<br>
+                        як Головний переможець Акції погоджуюсь отримати свій виграш – 317 000,00 гривень – готівкою.
                     </div>
+                </div>
+                <div class="main-blank__wait">
+                    <div class="main-blank__wait-title">
+                        Я очікую доставку грошового Призу:
+                    </div>
+                    <div class="main-blank__wait-group">
+                        <label><input type="radio" name="radio">Першого тижня виплат (01–05.05)</label>
+                        <label><input type="radio" name="radio">Четвертого тижня виплат (20–26.05)</label>
+                        <label><input type="radio" name="radio">Другого тижня виплат (06–12.05)</label>
+                        <label><input type="radio" name="radio">П’ятого тижня виплат (27.05–31.05).</label>
+                        <label><input type="radio" name="radio">Третього тижня виплат (13–19.05)</label>
+                    </div>
+                </div>
+                <div class="main-blank__contacts">
+                    <label>В зручний для мене день тижня:
+                        <select>
+                            <option>Понедельник</option>
+                            <option>Вторник</option>
+                            <option>Среда</option>
+                            <option>Четверг</option>
+                            <option>Пятница</option>
+                            <option>Суббота</option>
+                            <option>Воскресенье</option>
+                        </select>
+                    </label>
+                    <label>
+                        Номер телефону для зв’язку з Вами та уточнення адреси доставки:
+                        <input type="text" placeholder="+38 011 222 333 44">
+                    </label>
+                </div>
+                <div class="main-blank__adress">
+                    <label>
+                        Адреса доставки:
+                        <input type="text" maxlength="1000" placeholder="Область/Район/Населений пункт/Вулиця/Номер будинку/Номер квартири">
+                    </label>
+                </div>
+                <div class="main-blank__important">
+                    <div class="main-blank__important-block">
+                        <div class="main-blank__important-block-input">
+                            <input type="checkbox">
+                        </div>
+                        <div class="main-blank__important-block-text">
+                            Я відмовляюсь від БЕЗКОШТОВНОЇ доставки мені виграшу. Прошу вислати мені 317 000,00 гривень поштовим переказом.
+                        </div>
 
+                    </div>
+                    <div class="main-blank__important-block">
+                        <input type="checkbox">
+                        Я заповнюю цей документ і роблю обов’язкове замовлення товарів.
+                    </div>
                 </div>
-                <div class="main-blank__important-block">
-                    <input type="checkbox">
-                    Я заповнюю цей документ і роблю обов’язкове замовлення товарів.
-                </div>
-            </div>
-        </form>
-    </div>
-    <div class="main-blank__btn">
-        НАДІСЛАТИ
-    </div>
-    <div class="main-blank__text">
-        Щоб Служба автоматичної верифікації не відбракувала Ваш БЛАНК НА ДОСТАВКУ ВИГРАШУ, зробіть обов’язкове замовлення товарів із акційної пропозиції.
-    </div>
-    <div class="main-blank__next">
-        <p>*Із правилами Акції "Золотий Фонд" можна ознайомитися за посиланням: https://prizeme.com.ua/obshchiye-pravila-i-polozheniya-provedeniya-aktsii-i-opredeleniya-pobediteley-prayz-mi.pdf </p>
-        <p>*Саме таке ім'я можуть мати співробітники компанії, якщо будуть обіймати відповідні посади на момент виплати Призу</p>
-    </div>
+            </form>
+        </div>
+        <div class="main-blank__btn">
+            <a href="#last">НАДІСЛАТИ</a>
+        </div>
+        <div class="main-blank__text">
+            Щоб Служба автоматичної верифікації не відбракувала Ваш БЛАНК НА ДОСТАВКУ ВИГРАШУ, зробіть обов’язкове замовлення товарів із <span class="red">акційної пропозиції</span>.
+        </div>
+        <div class="main-blank__next">
+            <p>*Із правилами Акції "Золотий Фонд" можна ознайомитися за посиланням: https://prizeme.com.ua/obshchiye-pravila-i-polozheniya-provedeniya-aktsii-i-opredeleniya-pobediteley-prayz-mi.pdf </p>
+            <p>*Саме таке ім'я можуть мати співробітники компанії, якщо будуть обіймати відповідні посади на момент виплати Призу</p>
+        </div>
+    </a>
+
+</section>
+<section class="last">
+    <a name="last"></a>
 </section>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

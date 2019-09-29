@@ -309,14 +309,6 @@ ul, li {
     position: absolute;
     top: -66px;
     right: -144px; }
-  .patent__header span {
-    font-family: "Vollkorn", serif;
-    font-size: 30px;
-    line-height: 42px;
-    text-align: center;
-    color: #A70B0B;
-    padding-bottom: 12px;
-    text-transform: uppercase; }
   .patent__header:after {
     content: "";
     position: absolute;
@@ -480,6 +472,15 @@ ul, li {
   left: 0; }
   .slick-prev:before {
     content: "\f104"; }
+
+.upper {
+  text-transform: uppercase; }
+
+.red {
+  color: #A70B0B; }
+
+.yellow {
+  color: #ffc222; }
 
 .delivery {
   height: 648px; }
@@ -686,6 +687,8 @@ ul, li {
 
 .main-blank {
   padding: 50px 0; }
+  .main-blank a {
+    width: 100%; }
   .main-blank__blank {
     width: 878px;
     margin: 0 auto;
@@ -767,7 +770,10 @@ ul, li {
           background: none;
           display: inline-block; }
         .main-blank__wait-group label .jq-radio.checked .jq-radio__div {
-          background: #A70B0B; }
+          background: #A70B0B;
+          width: 6px;
+          height: 6px;
+          margin: 3px 0 0 3px; }
   .main-blank__contacts {
     width: 655px;
     margin-left: 88px;
@@ -873,15 +879,16 @@ ul, li {
     width: 276px;
     height: 74px;
     margin: 39px auto;
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 74px;
-    color: #FFFFFF;
     background: #A70B0B;
     text-align: center;
     cursor: pointer; }
+    .main-blank__btn a {
+      font-family: "Roboto", sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 74px;
+      color: #FFFFFF; }
   .main-blank__text {
     width: 878px;
     font-family: "Vollkorn", serif;
@@ -903,3 +910,11 @@ ul, li {
     margin: 0 auto; }
     .main-blank__next p {
       padding-bottom: 22px; }
+
+.last {
+  width: 100%;
+  height: 700px;
+  background-image: url("../images/last-fon.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
