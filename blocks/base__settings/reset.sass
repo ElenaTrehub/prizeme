@@ -1,0 +1,36 @@
+*
+  box-sizing: border-box
+a
+  text-decoration: none
+  display: inline-block
+ul,li
+  list-style: none
+  margin: 0
+  padding: 0
+.container
+  max-width: 1170px
+  margin: 0 auto
+  padding: 0 138px
+.gradient
+  background-color: $main-color
+  position: relative
+
+  &:before
+    content: ""
+    position: absolute
+    width: 988px
+    height: 638px
+    border-radius: 494px / 319px
+    left: calc(50% - 494px)
+    top: 0
+    background: rgba(156, 118, 66, 0.41)
+    box-shadow: 0px 0px 200px rgba(255, 216, 180, 0.35)
+    z-index: 1
+.sale
+  border: 11px solid #DBAB00
+  box-sizing: border-box
+  font-family: $second-font
+  font-size: 30px
+  line-height: 42px
+  text-align: center
+  color: $red-color

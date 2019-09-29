@@ -1,0 +1,103 @@
+.header
+  height: 665px
+  @extend .gradient
+  &__container
+    @extend .container
+    height: 665px
+    position: relative
+  &__inner
+    width: 1032px
+    position: absolute
+    height: 665px
+    z-index: 2
+    top: 0
+    left: 138px
+    background-image: url("../images/header-women.png")
+    background-position: bottom right 37px
+    background-repeat: no-repeat
+  &__annotation
+    width: 1119px
+    height: 11px
+    left: 138px
+    top: 5px
+    font-family: $main-font
+    font-style: normal
+    font-weight: 500
+    font-size: 9px
+    line-height: 11px
+    letter-spacing: 0.3em
+    color: #FFFFFF
+    opacity: 0.4
+    margin-bottom: 32px
+  &__logo
+    padding-left: 3px
+    margin-bottom: 52px
+  &__title
+    width: 623px
+    position: relative
+    font-family: $second-font
+    font-style: normal
+    font-weight: normal
+    font-size: 40px
+    line-height: 56px
+    color: #FFFFFF
+    padding-bottom: 28px
+    margin-bottom: 18px
+    &:after
+      content: ""
+      position: absolute
+      width: 435px
+      height: 11px
+      background-color: $second-color
+      bottom: 0
+      left: 0
+
+  &__text
+    width: 430px
+    font-family: $main-font
+    font-style: normal
+    font-weight: 500
+    font-size: 20px
+    line-height: 23px
+    color: #FFFFFF
+    margin-bottom: 47px
+  &__btn
+    font-family: $main-font
+    font-style: normal
+    font-weight: bold
+    font-size: 18px
+    line-height: 21px
+    text-transform: uppercase
+    color: #FFFFFF
+    padding: 28px 22px
+    background: $red-color
+    box-shadow: 0px 0px 15px #DD9E23
+    margin-left: 3px
+  &__signature
+    width: 535px
+    height: 101px
+    float: right
+    background: rgba(0, 0, 0, 0.5)
+    padding: 36px 0 36px 42px
+    display: flex
+    justify-content: flex-start
+    margin-top: 67px
+    &:after
+      content: ""
+      clear: both
+    &-text
+      width: 260px
+      font-family: $main-font
+      font-style: italic
+      font-weight: bold
+      font-size: 14px
+      line-height: 16px
+      color: #FFFFFF
+    &-img
+      height: 101px
+      margin-top: -25px
+      img
+        height: 90%
+
+
+

@@ -1,0 +1,52 @@
+.delivery
+  height: 648px
+  @extend .gradient
+  &__container
+    @extend .container
+    height: 648px
+    position: relative
+  &__inner
+    width: 1032px
+    position: absolute
+    height: 648px
+    z-index: 2
+    top: 0
+    left: 138px
+    background-image: url("../images/delivery-fon.png")
+    background-position: bottom right 37px
+    background-repeat: no-repeat
+  &__client
+    width: 506px
+    text-align: center
+    font-family: $second-font
+    font-size: 30px
+    line-height: 42px
+    color: #FFFFFF
+    margin: 45px 0px 15px 170px
+  &__title
+    width: 504px
+    position: relative
+    font-family: $second-font
+    font-size: 30px
+    line-height: 38px
+    text-align: center
+    color: #FFE484
+    text-shadow: 0px 0px 50px #F1CE30
+    margin: 0px 0px 46px 170px
+    padding-bottom: 39px
+    &:after
+      content: ""
+      position: absolute
+      width: 435px
+      height: 11px
+      background-color: $second-color
+      bottom: 0
+      left: 35px
+  &__text
+    width: 420px
+    font-family: $main-font
+    font-style: normal
+    font-weight: 500
+    font-size: 20px
+    line-height: 23px
+    color: #FFFFFF

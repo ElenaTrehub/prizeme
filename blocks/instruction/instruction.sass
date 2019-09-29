@@ -1,0 +1,93 @@
+.instruction
+  height: 783px
+  @extend .gradient
+  &__container
+    @extend .container
+    height: 783px
+    position: relative
+  &__inner
+    width: 894px
+    position: absolute
+    height: 783px
+    z-index: 2
+    top: 0
+  &__title
+    position: relative
+    text-transform: uppercase
+    font-family: $second-font
+    font-size: 40px
+    line-height: 50px
+    text-align: center
+    color: #FFFFFF
+    margin-top: 48px
+    margin-bottom: 46px
+    padding-bottom: 33px
+    &:after
+      content: ""
+      position: absolute
+      bottom: 0
+      height: 11px
+      width: 889px
+      left: 5px
+      background: #DBAB00
+  &__blocks
+    &-item:not(:last-child)
+      &:after
+        content: ""
+        position: absolute
+        background-image: url("../images/after-block.png")
+        width: 98px
+        height: 18px
+        top: 10px
+        right: 0
+  &__blocks
+    display: flex
+    justify-content: space-between
+    &-item
+      width: 215px
+      position: relative
+      &-img
+        height: 46px
+        margin-bottom: 26px
+        img
+          height: 100%
+          width: auto
+          margin-left: 58px
+
+      &-content
+        display: flex
+        justify-content: flex-start
+      &-number
+        font-family: $main-font
+        font-style: normal
+        font-weight: bold
+        font-size: 40px
+        line-height: 38px
+        text-align: center
+        color: #DBAB00
+        display: block
+        margin-right: 5px
+      &-text
+        font-family: $main-font
+        font-style: normal
+        font-weight: 900
+        font-size: 14px
+        line-height: 16px
+        color: #FFFFFF
+  &__text
+    font-family: $second-font
+    font-size: 25px
+    line-height: 31px
+    text-align: center
+    color: #FFFFFF
+    margin-top: 26px
+  &__sale
+    margin: 40px 0px 8px 50px
+    font-family: $second-font
+    font-size: 40px
+    line-height: 45px
+    text-align: center
+    color: #FF0000
+    padding: 19px 82px 30px 84px
+    background: #F5E586
+    @extend .sale
